@@ -1,0 +1,5 @@
+---
+- name: Compute file
+  test.utils.file_content:
+    path: "{{ test_file }}"
+    content: "{{ test_content }}"

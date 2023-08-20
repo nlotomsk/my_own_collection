@@ -1,0 +1,5 @@
+---
+- name: Test file role
+  hosts: all
+  roles:
+    - mu_own
